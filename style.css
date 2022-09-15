@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h1 {
+  color: rgb(159, 0, 61);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(6, 36, 15);
+}
+
+body {
+  color: rgb(10, 10, 10);
+  background: #F7F9FC;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  color:brown;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  align-self: center;
+}
+
+.card {
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.981);
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow: 0px 10px 30px rgb(207, 197, 197);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-pink {
+  background-color: rgb(159, 0, 61);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: block;
+  width: 90px;
+  margin: auto;
+  align-self: center;
+
+  /* margin-top: 20px;
+  margin-bottom: 10px; */
+}
+
+
+a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+i {
+  font-size: 60px;
+  margin: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .video {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .video {
+    width: 200px;
+  }
+}
